@@ -60,6 +60,8 @@ titan-gym/
 │   └── images/
 │
 ├── src/
+│   ├── main.js
+│   ├── style.css
 │   ├── css/
 │   ├── js/
 │   ├── assets/
@@ -67,8 +69,7 @@ titan-gym/
 │
 ├── index.html
 ├── package.json
-├── vite.config.js
-└── README.md
+└── vite.config.js
 ```
 
 ---
