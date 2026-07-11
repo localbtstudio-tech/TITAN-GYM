@@ -1,0 +1,258 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap");
+
+
+@import "./css/navbar.css";
+
+@import "./css/hero.css";
+
+@import "./css/background.css";
+
+@import "./css/programs.css";
+
+@import "./css/features.css";
+
+@import "./css/stats.css";*/
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap");
+
+@import "./css/navbar.css";
+@import "./css/hero.css";
+@import "./css/background.css";
+@import "./css/features.css";
+@import "./css/stat.css";
+@import "./css/programs.css";
+@import "./css/pricing.css";
+@import "./css/trainers.css";
+@import "./css/testimonials.css";
+@import "./css/journey.css";
+@import "./css/contact.css";
+@import "./css/footer.css";
+
+:root{
+
+    --bg:#090909;
+
+    --surface:#111111;
+
+    --primary:#ff3b30;
+
+    --text:#ffffff;
+
+    --text-secondary:#a1a1aa;
+
+}
+
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+body{
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:"Inter",sans-serif;
+
+}
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+.container{
+
+    width:min(92%,1400px);
+
+    margin:auto;
+
+}
+
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    background:linear-gradient(135deg,#ff3b30,#ff6148);
+
+    color:white;
+
+    font-weight:700;
+
+    box-shadow:
+
+        0 10px 40px rgba(255,59,48,.35);
+
+    transition:.35s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+
+        0 20px 60px rgba(255,59,48,.45);
+
+}
+
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    opacity:.85;
+
+}
+
+.cursor{
+
+position:fixed;
+
+width:18px;
+
+height:18px;
+
+border-radius:50%;
+
+background:var(--primary);
+
+pointer-events:none;
+
+transform:translate(-50%,-50%);
+
+z-index:9999;
+
+mix-blend-mode:difference;
+
+transition:
+width .25s,
+height .25s,
+transform .08s linear;
+
+}
+
+.scroll-progress{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    height:4px;
+
+    width:0;
+
+    z-index:99999;
+
+    background:linear-gradient(
+        90deg,
+        #ff3b30,
+        #ff6b35,
+        #ff9d00
+    );
+
+    box-shadow:
+        0 0 20px rgba(255,59,48,.7);
+
+}
+
+.feature-card,
+.program-card,
+.price-card,
+.trainer-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.feature-card::before,
+.program-card::before,
+.price-card::before,
+.trainer-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:var(--x);
+
+    top:var(--y);
+
+    width:320px;
+
+    height:320px;
+
+    transform:translate(-50%,-50%);
+
+    background:radial-gradient(
+        circle,
+        rgba(255,59,48,.22),
+        transparent 70%
+    );
+
+    opacity:0;
+
+    transition:opacity .25s;
+
+    pointer-events:none;
+
+}
+
+.feature-card:hover::before,
+.program-card:hover::before,
+.price-card:hover::before,
+.trainer-card:hover::before{
+
+    opacity:1;
+
+}
+
+
+
+/*h1,h2,h3,.logo{
+    font-family:"Bebas Neue",sans-serif;
+    letter-spacing:2px;
+}*/
+
+body{
+  font-family:"Inter",sans-serif;
+background:
+radial-gradient(circle at top,#1a1a1a 0%,#090909 70%);
+
+}
