@@ -42,13 +42,26 @@ A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, 
 
 ## 🛠 Tech Stack
 
+### Frontend
 - HTML5
 - CSS3 (Modular CSS Architecture)
 - JavaScript (ES6+)
+
+### Build Tool
 - Vite
-- GSAP
-- Swiper.js
-- Lucide Icons
+
+### Libraries & Animation
+- GSAP (Advanced Animations)
+- Swiper.js (Responsive Sliders)
+- Lenis Smooth Scroll (Smooth Scrolling)
+- Lucide Icons (UI Icons)
+
+### Data Visualization
+- Chart.js (Prepared for Future Dashboard & Analytics)
+
+### Deployment
+- GitHub Pages
+- gh-pages
 
 ---
 
