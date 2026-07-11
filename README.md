@@ -63,6 +63,7 @@ A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, 
 - GitHub Pages
 - gh-pages
 
+Visual assets were enhanced with the help of AI tools and online resources for image generation, inspiration, and finding suitable fitness visuals.
 ---
 
 ## 📂 Project Structure
