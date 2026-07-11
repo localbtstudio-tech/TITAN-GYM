@@ -54,22 +54,23 @@ A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, 
 ## 📂 Project Structure
 
 ```
-titan-gym/
+TITAN-GYM/
 │
 ├── public/
 │   └── images/
 │
 ├── src/
-│   ├── main.js
-│   ├── style.css
+│   ├── assets/
+│   ├── components/
 │   ├── css/
 │   ├── js/
-│   ├── assets/
-│   └── components/
+│   ├── main.js
+│   └── style.css
 │
 ├── index.html
 ├── package.json
-└── vite.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ---
