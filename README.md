@@ -8,7 +8,7 @@ A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, 
 
 ## 🚀 Live Demo
 
-🔗 https://YOUR_USERNAME.github.io/titan-gym/
+🔗 https://localbtstudio-tech.github.io/TITAN-GYM/
 
 ---
 
