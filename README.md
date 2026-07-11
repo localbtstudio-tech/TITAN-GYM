@@ -16,11 +16,11 @@ A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, 
 
 | Hero | Programs |
 |------|----------|
-| ![](./screenshots/hero.png) | ![](./screenshots/programs.png) |
+| ![](./hero.png) | ![](./programs.png) |
 
 | Pricing | Contact |
 |---------|---------|
-| ![](./screenshots/pricing.png) | ![](./screenshots/contact.png) |
+| ![](./pricing.png) | ![](./contact.png) |
 
 ---
 
