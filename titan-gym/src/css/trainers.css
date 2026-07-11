@@ -1,0 +1,99 @@
+.trainers{
+
+    padding:140px 0;
+
+}
+
+.trainer-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+    margin-top:70px;
+
+}
+
+.trainer-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    background:#141414;
+
+    cursor:pointer;
+
+
+   /* border:1px solid rgba(255,255,255,.08);
+
+backdrop-filter:blur(12px);
+
+transition:.35s;*/
+
+}
+
+.trainer-card img{
+
+    width:100%;
+
+    height:520px;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.trainer-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.trainer-info{
+
+    position:absolute;
+
+    left:0;
+
+    right:0;
+
+    bottom:0;
+
+    padding:30px;
+
+    background:linear-gradient(
+        transparent,
+        rgba(0,0,0,.92)
+    );
+
+}
+
+.trainer-info h3{
+
+    font-size:2rem;
+
+}
+
+.trainer-info p{
+
+    color:var(--primary);
+
+    margin-top:8px;
+
+}
+
+@media(max-width:1000px){
+
+.trainer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

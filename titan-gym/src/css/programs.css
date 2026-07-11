@@ -1,0 +1,268 @@
+.programs{
+
+    padding:140px 0;
+
+    background:#0b0b0b;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:0 auto 70px;
+
+}
+
+.section-title span{
+
+    color:var(--primary);
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+    font-size:.9rem;
+
+}
+
+.section-title h2{
+
+    margin:20px 0;
+
+    font-size:clamp(3rem,6vw,5rem);
+
+}
+
+.section-title p{
+
+    color:#999;
+
+    line-height:1.8;
+
+}
+
+.program-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.program-card{
+
+    background:#141414;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.45s;
+
+    cursor:pointer;
+
+}
+
+.program-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:rgba(255,59,48,.5);
+
+    box-shadow:
+
+        0 25px 70px rgba(255,59,48,.15);
+
+}
+
+.program-card img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.program-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.program-content{
+
+    padding:28px;
+
+}
+
+.program-content h3{
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+
+.program-content p{
+
+    color:#999;
+
+    margin-bottom:25px;
+
+    line-height:1.8;
+
+}
+
+.program-content a{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.program-content a:hover{
+
+    letter-spacing:1px;
+
+}
+
+@media(max-width:768px){
+
+.program-card img{
+
+height:220px;
+
+}
+
+}
+
+@media(max-width:1100px){
+
+.program-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.program-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+.program-modal{
+
+position:fixed;
+
+inset:0;
+
+background:rgba(0,0,0,.8);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+opacity:0;
+
+visibility:hidden;
+
+transition:.4s;
+
+z-index:9999;
+
+}
+
+.program-modal.active{
+
+opacity:1;
+
+visibility:visible;
+
+}
+
+.modal-box{
+
+background:#111;
+
+padding:45px;
+
+width:min(90%,650px);
+
+border-radius:25px;
+
+border:1px solid rgba(255,255,255,.08);
+
+position:relative;
+
+}
+
+.close-modal{
+
+position:absolute;
+
+top:20px;
+
+right:25px;
+
+font-size:2rem;
+
+cursor:pointer;
+
+color:white;
+
+}
+
+.modal-box h2{
+
+margin-bottom:20px;
+
+font-size:2.2rem;
+
+}
+
+.modal-box p{
+
+color:#bdbdbd;
+
+margin-bottom:25px;
+
+}
+
+.modal-box ul{
+
+margin-bottom:35px;
+
+padding-left:20px;
+
+}
+
+.modal-box li{
+
+margin:12px 0;
+
+color:white;
+
+}

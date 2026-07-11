@@ -1,0 +1,87 @@
+.hero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255,59,48,.18), transparent 35%),
+        radial-gradient(circle at 80% 35%, rgba(255,59,48,.12), transparent 30%),
+        radial-gradient(circle at 50% 90%, rgba(255,255,255,.04), transparent 40%);
+
+    z-index: -3;
+}
+
+.hero::after {
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+        linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+
+    background-size:50px 50px;
+
+    mask-image:linear-gradient(to bottom, black, transparent);
+
+    z-index:-2;
+}
+
+.glow-1,
+.glow-2{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(120px);
+
+    pointer-events:none;
+
+    z-index:-1;
+
+}
+
+.glow-1{
+
+    width:350px;
+
+    height:350px;
+
+    background:#ff3b30;
+
+    top:120px;
+
+    left:-120px;
+
+    opacity:.20;
+
+}
+
+.glow-2{
+
+    width:420px;
+
+    height:420px;
+
+    background:#ff3b30;
+
+    right:-150px;
+
+    bottom:-80px;
+
+    opacity:.12;
+
+}
