@@ -36,13 +36,14 @@ A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, 
 - ⭐ Testimonials slider
 - 📩 Contact form (mailto)
 - 🌙 Dark theme design
-
+- 🎯 Interactive UI effects
+- 🖱️ Custom cursor and spotlight effects
 ---
 
 ## 🛠 Tech Stack
 
 - HTML5
-- CSS3
+- CSS3 (Modular CSS Architecture)
 - JavaScript (ES6+)
 - Vite
 - GSAP
@@ -123,20 +124,17 @@ This project was created to demonstrate:
 
 ## 📈 Future Improvements
 
-- Authentication system
-- Membership dashboard
-- BMI calculator
-- Workout planner
-- Nutrition tracking
-- Online booking
-- Dark/Light mode
 - Backend integration
+- Membership dashboard
+- Online booking system
+- Nutrition tracking
 
 ---
 
 ## 👨‍💻 Author
 
-**Hamza Weslati**
+**Hamza Weslati**  
+Founder & Web Developer at **LocalBoost Studio**
 
 🌐 GitHub  
 https://github.com/localbtstudio-tech
