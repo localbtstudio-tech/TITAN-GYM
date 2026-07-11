@@ -2,7 +2,7 @@
 
 A modern, responsive gym landing page built with **HTML, CSS, JavaScript, Vite, and GSAP**. Designed with a premium aesthetic, smooth animations, and an engaging user experience.
 
-![Hero Preview](./screenshots/hero.png)
+![Hero Preview](./hero.png)
 
 ---
 
